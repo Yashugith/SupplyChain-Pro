@@ -103,3 +103,21 @@ Preferred communication style: Simple, everyday language.
 - autoprefixer - CSS vendor prefixing
 - class-variance-authority - Component variant management
 - tailwind-merge - Utility class merging
+
+Run SupplyChainPro (Dev Mode)
+# 1. Verify Node version (Node 18+ recommended for Vite 5)
+node -v
+
+# 2. Change to project directory
+cd "c\:your project location "
+
+# 3. Install dependencies
+npm install --no-audit --no-fund
+
+# 4. Start development server
+npm run dev
+
+# 5. Open app in browser
+start http://localhost:8080
+
+
